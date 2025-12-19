@@ -1,4 +1,13 @@
-# Three Phase Squirrel-Cage Induction Motor Fault Detection 
+# Three-Phase Squirrel-Cage Induction Motor Fault Detection
 
--Used starting example of MATLAB: https://www.mathworks.com/help/sps/ug/three-phase-asynchronous-machine-starting.html  -Electrical Fault ( Voltage Unbalance ) induced.  -Mechanical Faults ( Torque Overload and Torque Braking ) induced.
-Dataset created for transient states.  -Split data for test and train, classified into 4 classes ( Healthy, Voltage unbalance, Torque overload, Torque breaking )  -Achieved 99% accuracy even at 50-50 split.    -Used a damper to make graphs clearer for presenting.
+- Used a MATLAB starting example: https://www.mathworks.com/help/sps/ug/three-phase-asynchronous-machine-starting.html
+- Induced **electrical fault**: Voltage Unbalance
+- Induced **mechanical faults**: Torque Overload and Torque Braking
+- Created a dataset focused on **transient states**
+- Split data into **train/test** and classified into **4 classes**:
+  - Healthy
+  - Voltage Unbalance
+  - Torque Overload
+  - Torque Braking
+- Achieved **~99% accuracy**, even with a **50/50 train-test split**
+- Added a **rotational damper** to make the waveforms clearer for presentation
